@@ -1,7 +1,7 @@
 import { Http, Headers, URLSearchParams } from '@angular/http';
 import { Injectable } from '@angular/core';
 import { Item } from './item.model';
-
+//json-server --watch db.json in the terminal to see the students
 const BASE_URL = 'http://localhost:3000/items/';
 
 const HEADER = {headers: new Headers({'Content-Type': 'application/json'})};
