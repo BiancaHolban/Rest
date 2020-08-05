@@ -1,5 +1,11 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { Observable, of } from 'rxjs';
+import 'rxjs/add/observable/of';
+
+class NotificationsServiceStub {
+  notifications$ = Observable.of({})
+}
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
