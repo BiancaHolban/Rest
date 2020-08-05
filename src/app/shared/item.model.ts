@@ -1,5 +1,7 @@
-export interface Item {
-  id: number;
-  name?: string;
-  description?: string;
+export class Item {
+  constructor(
+  id: number,
+  name?: string,
+  description?: string,
+  ){}
 }
