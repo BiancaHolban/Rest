@@ -1,94 +1,105 @@
 {
-    "items": [
-      {
-        "id": 1,
-        "student_name": "Lee Min Ho",
+  "items": [
+    {
+      "id": 1,
+      "student_name": "Lee Min Ho",
+      "nr_abs": 2,
+      "marks": {
+        "math": 10,
+        "info": 9,
+        "chemistry": 8
+      }
+    },
+    {
+      "id": 2,
+      "student_name": "Lee Jung Suk",
+      "nr_abs": 3,
+      "marks": {
+        "math": 8,
+        "info": 9,
+        "chemistry": 7
+      }
+    },
+    {
+      "id": 3,
+      "student_name": "Park Min Young",
+      "nr_abs": 4,
+      "marks": {
+        "math": 9,
+        "info": 10,
+        "chemistry": 9
+      }
+    },
+    {
+      "id": 4,
+      "student_name": "Jung So Min",
+      "nr_abs": 5,
+      "marks": {
+        "math": 10,
+        "info": 8,
+        "chemistry": 7
+      }
+    },
+    {
+      "id": 5,
+      "student_name": "Lee Da Hae",
+      "nr_abs": 4,
+      "marks": {
+        "math": 10,
+        "info": 9,
+        "chemistry": 7
+      }
+    },
+    {
+      "id": 6,
+      "student_name": "Lee Min Ah",
+      "nr_abs": 6,
+      "marks": {
+        "math": 8,
+        "info": 9,
+        "chemistry": 8
+      }
+    },
+    {
+      "id": 7,
+      "student_name": "Ji Chang",
+      "nr_abs": 7,
+      "marks": {
+        "math": 8,
+        "info": 9,
+        "chemistry": 7
+      }
+    },
+    {
+      "id": 8,
+      "student_name": "Kang So",
+      "nr_abs": 4,
+      "marks": {
+        "math": 9,
+        "info": 10,
+        "chemistry": 7
+      }
+    },
+    {
+      "id": 9,
+      "student_name": "Lee Dong Wook",
+      "nr_abs": 6,
+      "marks": {
+        "math": 9,
+        "info": 7,
+        "chemistry": 7
+      }
+    },
+    {
+        "id": 10,
+        "student_name": "Park Lee",
         "nr_abs": 2,
         "marks": {
-            "math": 10,
-            "info": 9,
-            "chemistry":8
+          "math": 10,
+          "info": 10,
+          "chemistry": 7
         }
-      },
-      {
-        "id": 2,
-        "student_name": "Lee Jung Suk",
-        "nr_abs": 3,
-        "marks": {
-            "math": 8,
-            "info": 9,
-            "chemistry":7
-        }
-    },
-    {
-        "id": 3,
-        "student_name": "Park Min Young",
-        "nr_abs": 4,
-        "marks": {
-            "math": 9,
-            "info": 10,
-            "chemistry":9
-        }
-    },
-    {
-        "id": 4,
-        "student_name": "Jung So Min",
-        "nr_abs": 5,
-        "marks": {
-            "math": 10,
-            "info": 8,
-            "chemistry":7
-        }
-    },
-    {
-        "id": 5,
-        "student_name": "Lee Da Hae",
-        "nr_abs": 4,
-        "marks": {
-            "math": 10,
-            "info": 9,
-            "chemistry":7
-        }
-    },
-    {
-        "id": 6,
-        "student_name": "Lee Min Ah",
-        "nr_abs": 6,
-        "marks": {
-            "math": 8,
-            "info": 9,
-            "chemistry":8
-        }
-    },
-    {
-        "id": 7,
-        "student_name": "Ji Chang",
-        "nr_abs": 7,
-        "marks": {
-            "math": 8,
-            "info": 9,
-            "chemistry":7
-        }
-    },
-    {
-        "id": 8,
-        "student_name": "Kang So",
-        "nr_abs": 4,
-        "marks": {
-            "math": 9,
-            "info": 10,
-            "chemistry":7
-        }
-    },
-    {
-        "id": 9,
-        "student_name": "Lee Dong Wook",
-        "nr_abs": 6,
-        "marks": {
-            "math": 9,
-            "info": 7,
-            "chemistry":7
-        }
-    }
+      }
 
-]}
+  ]
+}
