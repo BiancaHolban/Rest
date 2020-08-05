@@ -171,6 +171,9 @@ describe('Service: Items', () => {
         expect(response).toEqual(expectedResponse);
         expect(http.get).toHaveBeenCalled();
         expect(spy.calls.mostRecent().args[0]).toContain('/items');
+        expect(spy.calls.mostRecent().args[1]).toContain('/items');
+        expect(spy.calls.mostRecent().args[2]).toContain('/items');
+        expect(spy.calls.mostRecent().args[3]).toContain('/items');
       });
   });
 });
